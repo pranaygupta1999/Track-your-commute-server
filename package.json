@@ -1,0 +1,22 @@
+{
+  "name": "trackyourcommute",
+  "version": "1.0.0",
+  "description": "This is the server for the app track your commute.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " echo \"Created By\\033[32m\\033[1m \\033[5mPranay Gupta \\033[0m\n \" && echo \"\\033[32mStarting the \\033[1m Node server \\033[0m \" &&  node ./dist/app.js",
+    "start-server" : "npm run start --silent"
+  },
+  "author": "Pranay Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "typescript": "^3.6.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/node": "^12.7.5"
+  }
+}
